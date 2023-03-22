@@ -4,16 +4,16 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, "index.html")
+    return render(request, "page/index.html")
 
 
 def about(request):
-    return render(request, "about.html")
+    return render(request, "page/about.html")
 
 
 def post(request):
-    return render(request, "post.html")
+    return render(request, "page/post.html")
 
 
 def contact(request):
-    return render(request, "contact.html")
+    return render(request, "page/contact.html")

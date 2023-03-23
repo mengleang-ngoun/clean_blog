@@ -17,3 +17,8 @@ def post(request):
 
 def contact(request):
     return render(request, "page/contact.html")
+
+
+def contact_submit(request):
+    print(form)
+    return render(request, "page/contact.html")

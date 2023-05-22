@@ -20,5 +20,10 @@ def contact(request):
 
 
 def contact_submit(request):
-    print(form)
     return render(request, "page/contact.html")
+
+def login(request):
+    return render(request, "page/auth/login.html")
+
+def register(request):
+    return render(request, "page/auth/register.html")
